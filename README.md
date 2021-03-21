@@ -15,10 +15,25 @@ npm install
 
 #### Script tag:
 
-`<script src="https://cdn.jsdelivr.net/gh/icjia/doit-accessibility/dist/index.js">`
+`<script src="https://cdn.jsdelivr.net/gh/icjia/doit-accessibility/dist/index.js" async>`
 
 #### Programmatic:
 
 ```
 document.body.appendChild(document.createElement('script')).src = 'https://cdn.jsdelivr.net/gh/icjia/doit-accessibility/dist/index.js';
+```
+
+#### Nuxt:
+
+`nuxt.config.js`
+
+```
+ script: [
+      {
+        src:
+          'https://cdn.jsdelivr.net/gh/icjia/doit-accessibility/dist/index.js',
+        async: true,
+        body: true,
+      },
+    ],
 ```
