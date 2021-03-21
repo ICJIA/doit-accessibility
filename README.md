@@ -23,7 +23,7 @@ npm install
 document.body.appendChild(document.createElement('script')).src = 'https://cdn.jsdelivr.net/gh/icjia/doit-accessibility/dist/index.js';
 ```
 
-#### Nuxt:
+#### [Nuxt](https://nuxtjs.org/):
 
 `nuxt.config.js`
 
