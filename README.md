@@ -1,6 +1,6 @@
 ## DoIT Accessibility script
 
-## Installation
+## Install
 
 ```
 git clone https://github.com/ICJIA/doit-accessibility.git
@@ -11,19 +11,19 @@ npm install
 
 `npm run prestart`
 
-### Usage:
+## Usage:
 
-#### Tag:
+### Tag:
 
 `<script src="https://cdn.jsdelivr.net/gh/icjia/doit-accessibility/dist/index.js" async>`
 
-#### Programmatic:
+### Programmatic:
 
 ```
 document.body.appendChild(document.createElement('script')).src = 'https://cdn.jsdelivr.net/gh/icjia/doit-accessibility/dist/index.js';
 ```
 
-#### [Nuxt](https://nuxtjs.org/):
+### [Nuxt](https://nuxtjs.org/):
 
 `nuxt.config.js`
 
