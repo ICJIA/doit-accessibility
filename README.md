@@ -7,11 +7,11 @@ git clone https://github.com/ICJIA/doit-accessibility.git
 npm install
 ```
 
-## To Lint and Build
+## Lint and build
 
 `npm run prestart`
 
-### To include in a project:
+### Usage:
 
 #### Script tag:
 
