@@ -1,8 +1,8 @@
 {
-  "name": "nodejs-babel-boilerplate",
+  "name": "doit-accessibility",
   "version": "0.0.1",
   "main": "index.js",
-  "author": "shinja.dev@gmail.com",
+  "author": "cschweda@gmail.com",
   "license": "MIT",
   "scripts": {
     "prestart": "npm run eslint:fix && npm run build",
