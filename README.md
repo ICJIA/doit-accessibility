@@ -13,7 +13,7 @@ npm install
 
 ### Usage:
 
-#### Script tag:
+#### Tag:
 
 `<script src="https://cdn.jsdelivr.net/gh/icjia/doit-accessibility/dist/index.js" async>`
 
@@ -28,6 +28,8 @@ document.body.appendChild(document.createElement('script')).src = 'https://cdn.j
 `nuxt.config.js`
 
 ```
+...
+
  script: [
       {
         src:
@@ -36,4 +38,6 @@ document.body.appendChild(document.createElement('script')).src = 'https://cdn.j
         body: true,
       },
     ],
+...
+
 ```
