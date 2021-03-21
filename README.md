@@ -13,7 +13,7 @@ npm install
 
 ### To include in a project:
 
-#### Via script tag:
+#### Script tag:
 
 `<script src="https://cdn.jsdelivr.net/gh/icjia/doit-accessibility/dist/index.js">`
 
