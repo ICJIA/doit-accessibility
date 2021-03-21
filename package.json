@@ -2,7 +2,7 @@
   "name": "doit-accessibility",
   "version": "0.0.1",
   "main": "index.js",
-  "author": "cschweda@gmail.com",
+  "author": "christopher.schweda@illinois.gov",
   "license": "MIT",
   "scripts": {
     "prestart": "npm run eslint:fix && npm run build",
